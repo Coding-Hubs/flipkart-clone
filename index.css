@@ -1,0 +1,157 @@
+
+body{
+    background-color: whitesmoke;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    margin-top: 0px;
+   background-color: white;
+}
+.searchicon{
+    border: none;
+    margin-left: 20px;
+    background-color: transparent;
+}
+input{
+    border: none;
+    outline: none;
+}
+.inp{
+    display: flex;
+    margin-left: 40px;
+    height: 40px;
+    width: 580px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(236, 236, 236);
+    align-content: center;
+    /* margin-top: 8px; */
+}
+.inputbox{
+     height: 35px;
+     width: 150%;
+     font-size: large;
+     border: none;
+     background-color: transparent;
+     
+    
+}
+.navitem{
+    display: flex;
+    justify-content: baseline;
+    justify-content: space-between;
+    align-items: center;
+}
+.nvleft{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.navright{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.log, .cart, .becomeSeller, .option{
+    display: flex;
+    align-items: baseline;
+    margin-left: 40px;
+    cursor: pointer;
+    
+}
+.icontext{
+    font-size: large;
+    padding-left: 40px;
+
+}
+.logimg, .cartimg, .sellerimg{
+    display: inline;
+    position: absolute;
+    padding-top: 0px;
+    cursor: pointer;
+    margin-top: 0px;
+
+}
+.option{
+    height: 35px;
+    width: 35px;
+    align-items: center;
+    justify-content: center;
+}
+.option:hover{
+    border: 2px solid rgb(172, 173, 174);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.more{
+    opacity: 0.5;
+    margin-left: 1px;
+}
+
+/* topbox-Start */
+
+.topbox{
+    margin-top: 10px;
+    height: 110px;
+    width: 96%;
+    justify-self: center;
+    padding: 10px;
+    background-color: white;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    height: 70px;
+    width: 70px;
+    border: none;
+}
+.card1{
+    background-image: url(./image/e00302d428f5c7be.webp);
+    background-size: cover;
+}
+.card2{
+    background-image: url(./image/5f2ee7f883cdb774.webp);
+    background-size: cover;
+    margin-left: 20px;
+}
+.card3{
+    background-image: url(./image/ff559cb9d803d424.webp);
+    background-size: cover;
+}
+.card4{
+    background-image: url(./image/af646c36d74c4be9.webp);
+    background-size: cover;
+}
+.card5{
+    background-image: url(./image/1788f177649e6991.webp);
+    background-size: cover;
+    margin-left: 15px;
+}
+.card6{
+    background-image: url(./image/e90944802d996756.webp);
+    background-size: cover;
+    margin-left: 15px;
+}
+.card7{
+    background-image: url(./image/3c647c2e0d937dc5.webp);
+    background-size: cover;
+    margin-left: 5px;
+}
+.card8{
+    background-image: url(./image/b3020c99672953b9.webp);
+    background-size: cover;
+    margin-left: 5px;
+}
+.card9{
+    background-image: url(./image/e730a834ad950bae.webp);
+    background-size: cover;
+}
+.items{
+   text-align: center;
+}
+/* topbox-End */
